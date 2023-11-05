@@ -134,7 +134,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Core\ECS.h" />
+    <ClInclude Include="src\Systems\MovementSystem.h" />
+    <ClInclude Include="src\Components\TransformComponent.h" />
+    <ClInclude Include="src\Loggers\Logger.h" />
+    <ClInclude Include="src\Games\Game.h" />
     <ClInclude Include="libs\glm\common.hpp" />
     <ClInclude Include="libs\glm\detail\compute_common.hpp" />
     <ClInclude Include="libs\glm\detail\compute_vector_relational.hpp" />
@@ -526,7 +530,10 @@
     <None Include="Makefile" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Core\ECS.cpp" />
+    <ClCompile Include="src\Systems\MovementSystem.cpp" />
+    <ClCompile Include="src\Loggers\Logger.cpp" />
+    <ClCompile Include="src\Games\Game.cpp" />
     <ClCompile Include="libs\glm\detail\glm.cpp" />
     <ClCompile Include="libs\imgui\imgui.cpp" />
     <ClCompile Include="libs\imgui\imgui_demo.cpp" />
