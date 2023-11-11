@@ -135,6 +135,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Core\ECS.h" />
+    <ClInclude Include="src\Core\IPool.h" />
+    <ClInclude Include="src\Core\Pool.h" />
     <ClInclude Include="src\Systems\MovementSystem.h" />
     <ClInclude Include="src\Components\TransformComponent.h" />
     <ClInclude Include="src\Loggers\Logger.h" />
